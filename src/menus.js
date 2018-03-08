@@ -9,8 +9,8 @@ const menus = [
     label: '介绍',
   },
   {
-    url: '/responsive',
-    label: '响应式',
+    url: '/background',
+    label: 'CSS背景',
   },
 ];
 

@@ -3,7 +3,7 @@
  * 路由配置文件
  */
 
-import Responsive from './routes/responsive/Responsive';
+import Background from './routes/background/Background';
 import Intro from './routes/intro/Intro';
 
 const routes = [
@@ -12,8 +12,8 @@ const routes = [
     component: Intro,
   },
   {
-    path: '/responsive',
-    component: Responsive,
+    path: '/background',
+    component: Background,
   },
 ];
 

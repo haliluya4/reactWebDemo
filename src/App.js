@@ -10,7 +10,6 @@ const ROOT = '/';
 
 class App extends React.Component {
   render() {
-    console.log(this.props);
     const {location} = this.props;
 
     // 小屏下内容菜单分开，大屏下左右分
