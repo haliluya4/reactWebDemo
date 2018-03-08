@@ -5,7 +5,7 @@
 
 const menus = [
   {
-    url: '/',
+    url: '/intro',
     label: '介绍',
   },
   {

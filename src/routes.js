@@ -8,7 +8,7 @@ import Intro from './routes/intro/Intro';
 
 const routes = [
   {
-    path: '/',
+    path: '/intro',
     component: Intro,
   },
   {
