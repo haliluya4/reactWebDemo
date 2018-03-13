@@ -3,8 +3,12 @@
  * 路由配置文件
  */
 
-import Background from './routes/background/Background';
+import BackgroundColor from './routes/background/BackgroundColor';
 import Intro from './routes/intro/Intro';
+import BackgroundImage from './routes/background/BackgroundImage';
+import BackgroundImageFixed from './routes/background/BackgroundImageFixed';
+import BackgroundImageOrigin from './routes/background/BackgroundImageOrigin';
+import BackgroundClip from './routes/background/BackgroundClip';
 
 const routes = [
   {
@@ -12,8 +16,24 @@ const routes = [
     component: Intro,
   },
   {
-    path: '/background',
-    component: Background,
+    path: '/backgroundColor',
+    component: BackgroundColor,
+  },
+  {
+    path: '/backgroundImage',
+    component: BackgroundImage,
+  },
+  {
+    path: '/backgroundImageFixed',
+    component: BackgroundImageFixed,
+  },
+  {
+    path: '/backgroundImageOrigin',
+    component: BackgroundImageOrigin,
+  },
+  {
+    path: '/backgroundClip',
+    component: BackgroundClip,
   },
 ];
 

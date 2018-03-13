@@ -1,0 +1,14 @@
+.Background-Color {
+  height: 100px;
+  background-color: blue;
+}
+
+.Background-Color-Hex {
+  height: 100px;
+  background-color: #3F034F;
+}
+
+.Background-Color-Rgb {
+  height: 100px;
+  background-color: rgb(255,0,0);
+}

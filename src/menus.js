@@ -9,8 +9,24 @@ const menus = [
     label: '介绍',
   },
   {
-    url: '/background',
-    label: 'CSS背景',
+    url: '/backgroundColor',
+    label: '背景色',
+  },
+  {
+    url: '/backgroundImage',
+    label: '背景图片',
+  },
+  {
+    url: '/backgroundImageFixed',
+    label: '背景图片固定',
+  },
+  {
+    url: '/backgroundImageOrigin',
+    label: '背景图片位置',
+  },
+  {
+    url: '/backgroundClip',
+    label: '背景裁减',
   },
 ];
 

@@ -1,0 +1,23 @@
+.Background-Clip-Padding-Box
+{
+  padding:25px;
+  border:10px dotted #000000;
+  background-color: pink;
+  background-clip:padding-box;
+}
+
+.Background-Clip-Border-Box
+{
+  padding:25px;
+  border:10px dotted #000000;
+  background-image: url("../../res/compatible_safari.png");
+  background-clip:border-box;
+}
+
+.Background-Clip-Content-Box
+{
+  padding:25px;
+  border:10px dotted #000000;
+  background-image: url("../../res/compatible_safari.png");
+  background-clip:content-box;
+}

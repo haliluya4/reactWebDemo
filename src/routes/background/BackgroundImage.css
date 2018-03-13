@@ -1,0 +1,14 @@
+.Background-Image {
+  height: 100px;
+  background-image: url("../../res/compatible_safari.png"), url("../../res/bg.jpeg");
+  background-repeat: repeat-x; /* 支持多向重复 */
+}
+
+.Background-Image-Position {
+  border-top: 1px blue dashed;
+  background-image: url("../../res/bg.jpeg");
+  background-position: center;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  height: 500px;
+}

@@ -1,0 +1,7 @@
+.Background-Image-Fixed {
+  background-image: url("../../res/bg.jpeg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 30% 60%;
+  background-repeat: no-repeat;
+}
