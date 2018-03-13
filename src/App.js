@@ -17,8 +17,11 @@ class App extends React.Component {
     const showMenu = onlyMenu ? location.pathname === ROOT : true;
     const showContent = location.pathname !== ROOT;
 
-    const routesDefine = routes.map((route) => {
-      return <Route exact path={route.path} component={route.component} />;
+    const routesDefine = routes.map((route, index) => {
+      return <Route exact
+                    path={route.path}
+                    component={route.component}
+                    key={`route-${index}`} />;
     });
 
     const currentYear = String(new Date().getFullYear());
@@ -43,7 +46,9 @@ class App extends React.Component {
             }
           </div>
           <div className='App-footer'>
-            {`JohnsonXu © 2017${currentYear !== '2017' ? `~${currentYear}` : ''}`}
+            {`JohnsonXu © 2017${currentYear !== '2017' ?
+                `~${currentYear}` :
+                ''}`}
           </div>
         </div>
     );

@@ -31,7 +31,6 @@ class CodeDisplay extends React.Component {
 CodeDisplay.propTypes = {
   code: PropTypes.string.isRequired, // 可以通过http://www.css88.com/tool/html2js/转义
   element: PropTypes.element.isRequired,
-  msg: PropTypes.string,
 };
 
 export default CodeDisplay;
