@@ -1,6 +1,6 @@
 .CodeDisplay {
   box-sizing: border-box;
-  height: calc(100vh - 150px - 48px);
+  height: 100%;
 }
 /* For desktop: */
 .col-1 {width: 8.33%;}
@@ -30,10 +30,6 @@
 .CodeDisplay .Code-Outside, .CodeDisplay .Display-Outside {
   max-height: calc(100vh - 150px - 48px);
   overflow-y: scroll;
-}
-
-.Display {
-  padding: 1px;
 }
 
 .Code-Msg {
@@ -75,7 +71,7 @@
   }
 
   .CodeDisplay .Code-Outside, .CodeDisplay .Display-Outside {
-    max-height: inherit;
+    max-height: none;
     height: auto;
   }
 }

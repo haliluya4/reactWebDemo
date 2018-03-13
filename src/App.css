@@ -60,8 +60,10 @@
 @media only screen and (min-width: 768px) {
   .App-menu {
     width: 25%;
+    height: calc(100vh - 150px - 48px);
   }
   .App-content {
     width: 75%;
+    height: calc(100vh - 150px - 48px);
   }
 }
