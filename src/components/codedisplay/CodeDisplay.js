@@ -16,6 +16,9 @@ class CodeDisplay extends React.Component {
           </div>
         </div>
         <div className='Code-Outside col-6'>
+          <div className='Code-Msg'>
+            {this.props.msg}
+          </div>
           <div className='Code'>
             {this.props.code}
           </div>
@@ -28,6 +31,7 @@ class CodeDisplay extends React.Component {
 CodeDisplay.propTypes = {
   code: PropTypes.string.isRequired, // 可以通过http://www.css88.com/tool/html2js/转义
   element: PropTypes.element.isRequired,
+  msg: PropTypes.string,
 };
 
 export default CodeDisplay;

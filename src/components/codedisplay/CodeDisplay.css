@@ -36,6 +36,10 @@
   padding: 1px;
 }
 
+.Code-Msg {
+  text-align: left;
+}
+
 .Code {
   text-align: left;
   padding: 10px 10px 10px 30px;
@@ -57,10 +61,10 @@
   text-align: right;
   background-color: #fbfbfb;
   color: #333;
-  outline: 100px solid #fbfbfb;
-  clip: rect(-100px 2em 9999px 0);
+  outline: 10px solid #fbfbfb;
+  clip: rect(-10px 2em 9999px 0);
   /* IE9+ */
-  clip: rect(-100px 3.5ch 9999px 0);
+  clip: rect(-10px 3.5ch 9999px 0);
   overflow: hidden;
 }
 
