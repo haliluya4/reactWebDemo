@@ -32,6 +32,7 @@
 
 .CodeDisplay .Code, .CodeDisplay .Display {
   border: 1px solid black;
+  height: calc(100vh - 150px - 48px);
 }
 
 .Code {
@@ -67,5 +68,9 @@
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
+  }
+
+  .CodeDisplay .Code, .CodeDisplay .Display {
+    height: auto;
   }
 }

@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom';
 
 const Menus = () => {
   const menusDefine = menus.map((menu, index) => {
-    return <li key={`menu-${index}`}><Link to={menu.url}>{menu.label}</Link></li>;
+    return <li key={`menu-${index}`} style={{textAlign: 'left'}}><Link to={menu.url}>{menu.label}</Link></li>;
   });
 
   return (<ul>
