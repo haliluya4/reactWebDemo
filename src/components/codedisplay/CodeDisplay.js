@@ -10,20 +10,24 @@ class CodeDisplay extends React.Component {
   render() {
     return <div className='CodeDisplay'>
       <div className='row'>
-        <div className='Display col-6'>
-          {this.props.element}
+        <div className='Display-Outside col-6'>
+          <div className='Display'>
+            {this.props.element}
+          </div>
         </div>
-        <div className='Code col-6'>
-          {this.props.code}
+        <div className='Code-Outside col-6'>
+          <div className='Code'>
+            {this.props.code}
+          </div>
         </div>
       </div>
-    </div>
+    </div>;
   }
 }
 
 CodeDisplay.propTypes = {
   code: PropTypes.string.isRequired, // 可以通过http://www.css88.com/tool/html2js/转义
-  element:PropTypes.element.isRequired,
+  element: PropTypes.element.isRequired,
 };
 
 export default CodeDisplay;

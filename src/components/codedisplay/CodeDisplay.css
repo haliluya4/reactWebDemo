@@ -1,5 +1,6 @@
 .CodeDisplay {
   box-sizing: border-box;
+  height: calc(100vh - 150px - 48px);
 }
 /* For desktop: */
 .col-1 {width: 8.33%;}
@@ -26,13 +27,13 @@
   display: block;
 }
 
-.CodeDisplay .Display {
-  padding: 10px;
+.CodeDisplay .Code-Outside, .CodeDisplay .Display-Outside {
+  max-height: calc(100vh - 150px - 48px);
+  overflow-y: scroll;
 }
 
-.CodeDisplay .Code, .CodeDisplay .Display {
-  border: 1px solid black;
-  height: calc(100vh - 150px - 48px);
+.Display {
+  padding: 1px;
 }
 
 .Code {
@@ -45,7 +46,6 @@
   white-space: pre-wrap;
   word-break: break-all;
   position: relative;
-  overflow: hidden;
 }
 
 .Code::before {
@@ -70,7 +70,8 @@
     width: 100%;
   }
 
-  .CodeDisplay .Code, .CodeDisplay .Display {
+  .CodeDisplay .Code-Outside, .CodeDisplay .Display-Outside {
+    max-height: inherit;
     height: auto;
   }
 }
